@@ -1,10 +1,11 @@
 function setup() {
   createCanvas(400, 400);
-  saveCanver('my-first-line', 'jpg')
+  background(255, 236, 217);
 }
 
 function draw() {
-  background(220);
-  strokeWeight(4)
+  strokeWeight(4);
   line(200, 50, 200, 350);
+  noLoop();
+  //save('my-first-line.jpg');
 }
