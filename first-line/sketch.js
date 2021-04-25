@@ -1,5 +1,6 @@
 function setup() {
   createCanvas(400, 400);
+  saveCanver('my-first-line', 'jpg')
 }
 
 function draw() {
