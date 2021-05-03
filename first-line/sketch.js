@@ -4,8 +4,8 @@ function setup() {
 }
 
 function draw() {
-  strokeWeight(4);
-  line(200, 50, 200, 350);
-  noLoop();
-  //save('my-first-line.jpg');
+  strokeWeight(4);  // Specify line thinkness
+  line(200, 50, 200, 350); // Draw line
+  noLoop(); // Keep code from continuously executing
+  //save('my-first-line.jpg'); // save still sketch
 }
